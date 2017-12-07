@@ -1,0 +1,92 @@
+*{
+                padding: 0px;
+                margin: 0px;
+            }
+            .login_bg{
+                height: 380px;
+                width: 100%;
+                background: url(../img/login_bg.jpg) no-repeat center center;
+            }
+            .login_foot{
+                background: #f5f5f5 none repeat scroll 0 0;
+                border-top: 1px solid #e1e1e1;
+                bottom: 0;
+                height: 70px;
+                left: 0;
+                padding: 15px 0;
+                position: fixed;
+                text-align: center;
+                width: 100%;
+            }
+
+            .login_box{
+                position: fixed;
+                top: 45%;
+                right: 5%;
+                margin-left: -200px;
+                margin-top: -168px;
+                width: 348px;
+                height: 337px;
+                background: #fff;
+                box-shadow: 0 1px 8px #606779;
+                border-radius: 2px;
+            }
+
+            .login_box .login_title{
+                height: 65px;
+                text-align: center;
+                line-height: 100px;
+                font-size: 22px;
+                font-weight: 700;
+                color: #2f333b;
+                background-color: #fff;
+                border-radius: 2px 2px 0 0;
+            }
+
+            .login_box .login_body{
+                padding: 25px 43px;
+            }
+
+            .login_box .login_input_box{
+                height: 34px;
+                border: 1px solid #d9dbe2;
+                position: relative;
+                margin-bottom: 20px;
+            }
+            .login_box .login_input_box input{
+                height: 30px;
+                width: 216px;
+                float: left;
+                font-size: 18px;
+            }
+            .tb_box{
+                display: inline-block;
+                width: 40px;
+                height: 34px;
+                background: #d9dbe2;
+                float: left;
+                line-height: 44px;
+                text-align: center;
+            }
+            .tb_box i{
+                display: inline-block;
+                width: 21px;
+                height: 21px;
+            }
+            .tb_box i.user_tb{
+                background: url(../img/icon.png) no-repeat -20px -18px;
+            }
+            .tb_box i.pass_tb{
+                background: url(../img/icon.png) no-repeat -58px -64px;
+            }
+
+            #login{
+                display: block;
+                height: 39px;
+                background: #dc4458;
+                line-height: 39px;
+                text-align: center;
+                color: #fff;
+                border-radius: 2px;
+                text-decoration: none;
+            }
